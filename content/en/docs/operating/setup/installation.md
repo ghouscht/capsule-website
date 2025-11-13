@@ -86,7 +86,7 @@ Generally we recommend to use [matchconditions](https://kubernetes.io/docs/refer
 
 #### Nodes
 
-There is a webhook which catches interactions with the Node resource. This Webhook is mainly interesting, when you make use of [Node Metadata](/docs/tenants/enforcement/#nodes). In any other case it will just case you problems. By default the webhook is **disabled**, but you can enabled it by setting the following value:
+There is a webhook which catches interactions with the Node resource. This Webhook is mainly interesting, when you make use of [Node Metadata](/docs/tenants/enforcement/#nodes). In any other case it will just cause you problems. By default the webhook is **disabled**, but you can enable it by setting the following value:
 
 ```yaml
 webhooks:
